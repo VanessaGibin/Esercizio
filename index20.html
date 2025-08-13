@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>giorno 20</title>
+        <link rel="stylesheet" href="style20.css">
+    </head>
+    <body>
+        <h1>chi sono</h1>
+        <p>
+            Ciao, sono Vanessa, ho 17 anni, vivo ad Adria.<br>
+            Questo è il <b>ventesimo giorno</b> del piano agosto/settembre 2025*.<br>
+            *in realtà è il decimo.
+        </p>
+        <h3>lista passioni hobby</h3>
+        <ul class="lista">
+            <li>Informatica</li>
+            <li>Animazione 3D</li>
+            <li>Musica</li>
+            <li>Natura</li>
+            <li>Animali</li>
+            <li>Grest</li>
+        </ul>
+        <h3>lista film preferiti</h3>
+        <ol class="lista" type="a">
+            <li>pirati dei caraibi</li>
+            <li>aldo giovanni e giacomo</li>
+            <li>era glaciale</li>
+        </ol>
+        <h3>lista di cose che mi piacciono a scuola</h3>
+        <ul class="lista" type="square">
+            <li>ricreazione</li>
+            <li>stare con gli amici</li>
+            <li>basta</li>
+        </ul>
+        <h3>Orario scolastico:</h3>
+        <table class="tabella">
+            <tr>
+                <th>materia</th>
+                <th>orario</th>
+                <th>prof</th>
+            </tr>
+            <tr>
+                <td>italiano</td>
+                <td>8:00-9:00</td>
+                <td>Nonato</td>
+            </tr>
+            <tr>
+                <td>matematica</td>
+                <td>9:00-10:00</td>
+                <td>Stoppa</td>
+            </tr>
+            <tr>
+                <td>informatica</td>
+                <td>10:00-11:00</td>
+                <td>Frigato</td>
+            </tr>
+            <tr>
+                <td>inglese</td>
+                <td>11:00-12:00</td>
+                <td>Allegro</td>
+            </tr>
+            <tr>
+                <td>TPSIT</td>
+                <td>12:00-13:00</td>
+                <td>Lionello</td>
+            </tr>
+        </table>
+        <br>
+        <img src="IMG-20250515-WA0010.jpg" width="350" alt="maglia Grest 2025">
+        <br>
+        <a href="maglieGrest2025.html" target="_blank">Grestissimo ME - maglie grest 2025</a>
+        <br>
+        <a href="https://docs.google.com/document/d/1eNUy1KgDrqtyXqC8ojgORzjcOxKEfGa9sAEcAUmcrF0/edit?tab=t.0" target="_blank">cartellini gita</a>
+        <br><br>
+        <h3>feste/grest 2025-2026</h3>
+        <div class="container">
+            <div class="box">
+                <div class="sottotitolo arancione">Castagnata</div>
+                <h4>novembre</h4>
+                <p class="descrizione">Alla castagnata si fanno giochi e poi portiamo le castagne ai bambini.</p>
+            </div>
+            <div class="box">
+                <div class="sottotitolo azzurro">Festa Natale</div>
+                <h4>dicembre</h4>
+                <p class="descrizione">Alla festa di natale ci sono giochi in spirito natalizio e tutto è addobbato in tema.</p>
+            </div>
+            <div class="box">
+                <div class="sottotitolo fucsia">Carnevale</div>
+                <h4>febbraio</h4>
+                <p class="descrizione">Al carnevale ci si traveste e si gioca tutti insieme.</p>
+            </div>
+            <div class="box">
+                <div class="sottotitolo verde">Grest</div>
+                <h4>giugno-luglio</h4>
+                <p class="descrizione">Al grest si fanno giochi, attività, si guardano film...ci si diverte.</p>
+            </div>
+        </div>
+        <table class="tabella">
+            <tr>
+                <th>titolo libro</th>
+                <th>autore</th>
+            </tr>
+            <tr>
+                <td>libro 1</td>
+                <td>autore 1</td>
+            </tr>
+            <tr>
+                <td>libro 2</td>
+                <td>autore 2</td>
+            </tr>
+            <tr>
+                <td>libro 3</td>
+                <td>autore 3</td>
+            </tr>
+        </table>
+        <br>
+        <h3>form</h3>
+        <div class="iscrizione">
+            <p>Modulo iscrizione bambino/a:</p>
+            <form action="fintoFile.php" method="post">
+                <label for="nomeBambino">nome:</label>
+                <input type="text" id="nomeBambino" name="nome" placeholder="Inserisci il nome del bambino/a"><br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="Inserisci la tua email"><br>
+                <label for="messaggio">messaggio:</label><br>
+                <textarea id="messaggio" name="messaggio" rows="4" cols="35" placeholder="Inserisci eventuali richieste o avvertimenti"></textarea><br>
+                <label for="partecipazione">partecipazione:</label>
+                <select id="partecipazione"  name="partecipazione">
+                    <option value="mattina">solo mattina</option>
+                    <option value="pomeriggio">solo pomeriggio</option>
+                    <option value="entrambi">entrambi</option>
+                </select>
+                <br>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </body>
+</html>
